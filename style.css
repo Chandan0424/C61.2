@@ -1,0 +1,118 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top:800px ;
+}
+.profile{
+    height:200px;
+    width: 175px;
+    border-radius:50%;
+    margin-bottom:50px;
+    margin-top:100px;
+}
+.Menu{
+    list-style:none;
+    top:10px;
+    right:30px;
+    z-index: 10;
+    cursor:pointer;
+    position: absolute;
+}
+#welcome{
+    background:linear-gradient(Red 0%,Blue 100%);
+    position:absolute;
+    overflow: hidden;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    opacity:0.8;
+    width:100%;
+    height:100%;
+    z-index:9;
+}
+h1{
+    background:linear-gradient(green 0%,Red 100%);
+    font-size:40px;
+    line-height:1.2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+}
+.parallax-inner{
+    position:relative;
+    text-align:center;
+    vertical-align:middle;
+}
+h2{
+    font-size:30px;
+    line-height:1.2;
+    font-family:'Segoe UI';
+    font-weight:300;
+}
+span{
+    font-size:40px;
+    line-height:3;
+    font-family:cursive;
+    font-weight:300;
+}
+#bio{
+    padding:50px;
+    text-align:center;
+    font-size:42px;
+}
+.line{
+    height:6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+p{
+    font-size:17px;
+    line-height:1.3;
+    max-width:450px;
+    margin:25px auto;
+}
+.Links{
+    float:left;
+    color:darkseagreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right:9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.Links:hover{
+    background-color:aliceblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Font{
+    font-family: 'Gorditas', cursive;
+}
+#Apps{
+    width:100%;
+    height:800px;
+    background-color:aliceblue;
+}
+#Games{
+    width:100%;
+    height:800px;
+    background-color:rgb(139, 201, 255);
+}
+img{
+    transition:transform .2s;
+}
+img:hover{
+    transform:scale(1.5);
+}
+#ChatBot{
+    width:100%;
+    height:800px;
+    background-color:rgb(139, 201, 255);
+}
+.img35{
+    height:300px;
+    width:300px;
+}
